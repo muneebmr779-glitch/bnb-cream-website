@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-charcoal-900 dark:bg-charcoal-950 dark:text-charcoal-100 font-sans antialiased;
+}
+
+::selection {
+  @apply bg-accent-600/30;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-charcoal-300 dark:bg-charcoal-700 rounded-full;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-16 sm:py-24;
+  }
+
+  .heading-xl {
+    @apply font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05];
+  }
+
+  .heading-lg {
+    @apply font-display text-3xl sm:text-4xl font-bold tracking-tight;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-accent-600/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent-600 dark:text-accent-400 ring-1 ring-inset ring-accent-600/20;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-charcoal-950 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent-600 text-white shadow-lg shadow-accent-600/25 hover:bg-accent-500 hover:shadow-accent-600/40 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn bg-charcoal-900 text-white hover:bg-charcoal-800 dark:bg-white dark:text-charcoal-900 dark:hover:bg-charcoal-100 active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-charcoal-200 text-charcoal-900 hover:border-accent-600 hover:text-accent-600 dark:border-charcoal-700 dark:text-white dark:hover:border-accent-500 dark:hover:text-accent-400 active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply btn text-charcoal-600 hover:bg-charcoal-100 dark:text-charcoal-300 dark:hover:bg-charcoal-800;
+  }
+
+  .card {
+    @apply rounded-2xl border border-charcoal-100 bg-white shadow-card dark:border-charcoal-800 dark:bg-charcoal-900;
+  }
+
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 dark:bg-charcoal-900/60 dark:border-white/10;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-charcoal-200 bg-white px-4 py-2.5 text-sm text-charcoal-900 placeholder:text-charcoal-400 transition focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-500/30 dark:border-charcoal-700 dark:bg-charcoal-800 dark:text-white;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-charcoal-700 dark:text-charcoal-300;
+  }
+
+  .field-error {
+    @apply mt-1 text-xs font-medium text-accent-600 dark:text-accent-400;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+}
