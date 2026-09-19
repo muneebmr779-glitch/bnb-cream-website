@@ -1,0 +1,22 @@
+<svg width="1000" height="1200" viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E1A10"/>
+      <stop offset="100%" stop-color="#4A2C1D"/>
+    </linearGradient>
+    <radialGradient id="glow13">
+      <stop offset="0%" stop-color="#9C3B4A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9C3B4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#g13)"/>
+  <circle cx="730" cy="691" r="309" fill="url(#glow13)" opacity="0.19"/><circle cx="121" cy="1063" r="131" fill="url(#glow13)" opacity="0.13"/><circle cx="409" cy="363" r="280" fill="url(#glow13)" opacity="0.24"/><circle cx="100" cy="888" r="255" fill="url(#glow13)" opacity="0.13"/>
+  <g transform="translate(500, 600) scale(5.88)">
+    <rect x="-28" y="-4" width="56" height="38" rx="4" fill="#E9D6BA" opacity="0.9"/>
+    <rect x="-28" y="-18" width="56" height="16" rx="4" fill="#E9D6BA"/>
+    <rect x="-5" y="-18" width="10" height="56" fill="#E9D6BA" opacity="0.55"/>
+    <path d="M -5 -18 Q -20 -34 -5 -30 Q -5 -24 -5 -18" fill="#E9D6BA" opacity="0.6"/>
+    <path d="M 5 -18 Q 20 -34 5 -30 Q 5 -24 5 -18" fill="#E9D6BA" opacity="0.6"/>
+  </g>
+  
+</svg>

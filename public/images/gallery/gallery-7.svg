@@ -1,0 +1,20 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g206" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2A1A"/>
+      <stop offset="100%" stop-color="#6B4128"/>
+    </linearGradient>
+    <radialGradient id="glow206">
+      <stop offset="0%" stop-color="#D2A679" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#D2A679" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g206)"/>
+  <circle cx="340" cy="907" r="155" fill="url(#glow206)" opacity="0.12"/><circle cx="597" cy="98" r="141" fill="url(#glow206)" opacity="0.18"/><circle cx="348" cy="829" r="154" fill="url(#glow206)" opacity="0.24"/><circle cx="678" cy="86" r="232" fill="url(#glow206)" opacity="0.24"/>
+  <g transform="translate(400, 500) scale(4.71)">
+    <rect x="-32" y="-14" width="64" height="42" rx="6" fill="#F5EAD8" opacity="0.9"/>
+    <rect x="-10" y="-26" width="20" height="14" rx="3" fill="#F5EAD8" opacity="0.9"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 -8a14 14 0 100 28 14 14 0 000-28z" fill="#F5EAD8" opacity="0.5"/>
+  </g>
+  
+</svg>

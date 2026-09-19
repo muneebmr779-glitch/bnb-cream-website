@@ -1,0 +1,23 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g106" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E1A10"/>
+      <stop offset="100%" stop-color="#4A2C1D"/>
+    </linearGradient>
+    <radialGradient id="glow106">
+      <stop offset="0%" stop-color="#9C3B4A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9C3B4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#g106)"/>
+  <circle cx="394" cy="284" r="280" fill="url(#glow106)" opacity="0.19"/><circle cx="110" cy="694" r="175" fill="url(#glow106)" opacity="0.15"/><circle cx="100" cy="566" r="75" fill="url(#glow106)" opacity="0.16"/><circle cx="419" cy="23" r="257" fill="url(#glow106)" opacity="0.17"/>
+  <g transform="translate(450, 450) scale(5.29)">
+    <circle cx="0" cy="0" r="32" fill="#E9D6BA" opacity="0.9"/>
+    <circle cx="-10" cy="-8" r="3.2" fill="#E9D6BA" opacity="0.35"/>
+    <circle cx="9" cy="-14" r="3.2" fill="#E9D6BA" opacity="0.35"/>
+    <circle cx="14" cy="4" r="3.2" fill="#E9D6BA" opacity="0.35"/>
+    <circle cx="-4" cy="14" r="3.2" fill="#E9D6BA" opacity="0.35"/>
+    <circle cx="-16" cy="6" r="3.2" fill="#E9D6BA" opacity="0.35"/>
+  </g>
+  
+</svg>

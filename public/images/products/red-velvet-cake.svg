@@ -1,0 +1,22 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g101" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E1A10"/>
+      <stop offset="100%" stop-color="#4A2C1D"/>
+    </linearGradient>
+    <radialGradient id="glow101">
+      <stop offset="0%" stop-color="#9C3B4A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9C3B4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#g101)"/>
+  <circle cx="214" cy="123" r="286" fill="url(#glow101)" opacity="0.18"/><circle cx="352" cy="409" r="264" fill="url(#glow101)" opacity="0.25"/><circle cx="85" cy="647" r="96" fill="url(#glow101)" opacity="0.15"/><circle cx="537" cy="426" r="132" fill="url(#glow101)" opacity="0.24"/>
+  <g transform="translate(450, 450) scale(5.29)">
+    <rect x="-38" y="-6" width="76" height="34" rx="6" fill="#E9D6BA" opacity="0.9"/>
+    <rect x="-30" y="-26" width="60" height="26" rx="6" fill="#E9D6BA" opacity="0.75"/>
+    <path d="M -30 -26 Q -20 -38 -10 -26 Q 0 -38 10 -26 Q 20 -38 30 -26" stroke="#E9D6BA" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <rect x="-3" y="-46" width="6" height="14" rx="2" fill="#E9D6BA"/>
+    <ellipse cx="0" cy="-50" rx="4" ry="6" fill="#E9D6BA" opacity="0.8"/>
+  </g>
+  
+</svg>

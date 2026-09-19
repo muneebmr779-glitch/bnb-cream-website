@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream-50: #fdfaf5;
+  --color-cream-100: #fbf6ee;
+  --color-cream-200: #f5ead8;
+  --color-beige-300: #e9d6ba;
+  --color-caramel-400: #c68b57;
+  --color-caramel-500: #b3763f;
+  --color-caramel-600: #a56a3d;
+  --color-chocolate-700: #5a3825;
+  --color-chocolate-800: #3a2417;
+  --color-chocolate-900: #2e1a10;
+  --color-accent-500: #9c3b4a;
+  --color-accent-600: #832f3c;
+
+  --background: var(--color-cream-50);
+  --foreground: var(--color-chocolate-900);
+}
+
+@theme inline {
+  --color-cream-50: var(--color-cream-50);
+  --color-cream-100: var(--color-cream-100);
+  --color-cream-200: var(--color-cream-200);
+  --color-beige-300: var(--color-beige-300);
+  --color-caramel-400: var(--color-caramel-400);
+  --color-caramel-500: var(--color-caramel-500);
+  --color-caramel-600: var(--color-caramel-600);
+  --color-chocolate-700: var(--color-chocolate-700);
+  --color-chocolate-800: var(--color-chocolate-800);
+  --color-chocolate-900: var(--color-chocolate-900);
+  --color-accent-500: var(--color-accent-500);
+  --color-accent-600: var(--color-accent-600);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-accent-500);
+  color: var(--color-cream-50);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* Smooth scrolling for on-page nav links, respecting reduced-motion */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  scroll-padding-top: 88px;
+}
+
+.container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .container-px {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Subtle text reveal used across sections */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+/* Custom scrollbar for admin tables/panels */
+.thin-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-beige-300);
+  border-radius: 999px;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(46 26 16 / 0.15);
+  background: white;
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--color-caramel-500);
+  box-shadow: 0 0 0 1px var(--color-caramel-500);
+}
